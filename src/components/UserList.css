@@ -1,0 +1,28 @@
+.user-list {
+  padding: 20px;
+}
+
+.user-card {
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 16px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ant-card-meta-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ant-card-meta-description {
+  color: #555;
+  font-size: 14px;
+}
