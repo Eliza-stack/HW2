@@ -1,6 +1,11 @@
 .user-list {
-  padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
 }
+
 
 .user-card {
   border-radius: 8px;

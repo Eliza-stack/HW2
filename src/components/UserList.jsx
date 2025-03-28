@@ -10,7 +10,7 @@ const UserList = ({ users = [] }) => {
   return (
     <Row gutter={[16, 16]} className="user-list">
       {users.map(({ id, name, email, phone }) => (
-        <Col span={8} key={id}>
+        <Col xs={24} sm={12} md={8} lg={6} xl={6} key={id}>
           <Card className="user-card" hoverable title={name}>
             <p>{email}</p>
             <p>{phone}</p>
